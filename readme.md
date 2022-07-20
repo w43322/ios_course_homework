@@ -1,3 +1,16 @@
+# 作业2
+## 使用Objective-C来自定义一个Student类
+### 属性
+##### name (字符串)
+##### major (字符串)
+##### 年龄 (整形)
+### 方法
+##### study
+* 有一个参数位time (浮点型) , 表示学生学习了几个小时
+* 打印出学习时间
+
+![](./images/homework2/image1.png)
+
 # 作业1
 ## 1. 按顺序打印出 App、ViewController 生命周期的各个事件
 
