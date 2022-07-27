@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D68C17A12890FFAE00574CC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D68C17A02890FFAE00574CC0 /* main.m */; };
 		D68C17A92890FFDC00574CC0 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D68C17A82890FFDC00574CC0 /* Person.m */; };
+		D68C17AC2891012E00574CC0 /* Passenger.m in Sources */ = {isa = PBXBuildFile; fileRef = D68C17AA2891012E00574CC0 /* Passenger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		D68C17A02890FFAE00574CC0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D68C17A72890FFDC00574CC0 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		D68C17A82890FFDC00574CC0 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		D68C17AA2891012E00574CC0 /* Passenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Passenger.m; sourceTree = "<group>"; };
+		D68C17AB2891012E00574CC0 /* Passenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Passenger.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				D68C17A02890FFAE00574CC0 /* main.m */,
 				D68C17A72890FFDC00574CC0 /* Person.h */,
 				D68C17A82890FFDC00574CC0 /* Person.m */,
+				D68C17AB2891012E00574CC0 /* Passenger.h */,
+				D68C17AA2891012E00574CC0 /* Passenger.m */,
 			);
 			path = homework3;
 			sourceTree = "<group>";
@@ -126,6 +131,7 @@
 			files = (
 				D68C17A92890FFDC00574CC0 /* Person.m in Sources */,
 				D68C17A12890FFAE00574CC0 /* main.m in Sources */,
+				D68C17AC2891012E00574CC0 /* Passenger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

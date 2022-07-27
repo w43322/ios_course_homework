@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *city;
 @property (nonatomic, copy) NSString *detail;
 @property (nonatomic, copy) CLLocation *location;
+
+- (void)printAddress;
 @end
 
 @interface Person : NSObject
@@ -33,6 +35,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)bindMother:(Person *)mother;
 - (void)bindFather:(Person *)father;
+
+- (void)printPersonInfo;
 
 @end
 

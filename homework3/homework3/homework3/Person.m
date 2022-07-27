@@ -8,7 +8,11 @@
 #import "Person.h"
 
 @implementation Address
-
+- (void)printAddress
+{
+    NSLog(@"Address:");
+    NSLog(@"    %@, %@, %@, %@", self.detail, self.city, self.province, self.country);
+}
 @end
 
 
@@ -25,12 +29,12 @@
 
 - (instancetype)initWithName:(NSString *)name address:(Address *)address birthday:(nonnull NSDate *)birthday{
     if (self = [super init]) {
-        [self createPersonWithName:name ddress:address birthday:birthday];
+        [self createPersonWithName:name address:address birthday:birthday];
     }
     return self;
 }
 
-- (void)createPersonWithName:(NSString *)name ddress:(Address *)address birthday:(nonnull NSDate *)birthday {
+- (void)createPersonWithName:(NSString *)name address:(Address *)address birthday:(nonnull NSDate *)birthday {
     
     self.name = name;
     self.address = address;
@@ -62,6 +66,14 @@
 - (NSInteger)age {
     NSDate *now = [NSDate date];
     return [now timeIntervalSince1970] - [self.birthday timeIntervalSince1970];
+}
+
+- (void)printPersonInfo
+{
+    NSLog(@"Name: %@", self.name);
+    [self.address printAddress];
+    NSLog(@"Birthday: %@", [NSDateFormatter localizedStringFromDate:self.birthday dateStyle:NSDateFormatterShortStyle timeStyle:NSDateFormatterNoStyle]);
+    NSLog(@"Age: %ld", self.age / 60 / 60 / 24 / 365);
 }
 
 @end
