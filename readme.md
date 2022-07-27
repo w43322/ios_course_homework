@@ -1,3 +1,6 @@
+# 作业3
+![](./images/homework3/image1.png)
+
 # 作业2
 ## 使用Objective-C来自定义一个Student类
 ### 属性
